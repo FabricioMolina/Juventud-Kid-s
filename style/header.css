@@ -1,0 +1,64 @@
+@import url(nav__responsive.css);
+.nav{
+    top: 50px;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(#2f6997  , #ee0202);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-attachment: fixed;
+    font-weight: bold;
+}
+.nav__name{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    color: white;
+    transition: all .6s
+    
+}
+.nav__ul{   
+    display: flex;
+    list-style: none;
+    margin-right: 50px;
+}
+.nav__li{
+    padding: 20px 0px;
+    margin: 0px 20px;
+    transition: all .2s;
+}
+.nav__li a{
+    padding: 7px 13px;
+    font-size: 18px;
+    display: inline-block;
+    color: whitesmoke;
+    text-decoration: none;
+    transition: all .6s
+}
+.nav__li i{
+    color: white;
+    margin-right: 5px;
+    transition: all .6s;
+}
+.nav__li:hover > a{
+    color:  #EDFF21;     
+}
+.nav__li:hover > i{
+    color:  #EDFF21     
+}
+.nav__name:hover{
+    color:  #EDFF21;
+}
+.nav__btn-menu{
+    color: white;
+    margin-right: 30px;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+ul.nav__responsive{
+    top: 65px; 
+}
